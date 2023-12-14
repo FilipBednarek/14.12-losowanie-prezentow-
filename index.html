@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>losowanie prezentów</title>
+  </head>
+  <body>
+    <form action="#">
+      <div id="mainDiv">
+        <h3>Wylosuj prezent:</h3>
+        <div id="divGift">
+          <p>Nazwa Prezentu:</p>
+          <label for="giftName">
+            <input type="text" id="giftName" />
+          </label>
+          <input type="button" id="addGift" value="Dodaj prezent do listy" />
+        </div>
+
+        <div id="divName">
+          <p>jak masz na imie?:</p>
+          <label for="personName">
+            <input type="text" id="personName" />
+          </label>
+          <input type="button" id="addName" value="Losuj prezent" />
+        </div>
+        <div id="display"></div>
+      </div>
+    </form>
+    <script src="/app.js"></script>
+  </body>
+</html>
